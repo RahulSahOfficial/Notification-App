@@ -2,7 +2,8 @@
 
 ## Frontend Mentor Challenge
 Notifications Page : React Based App
-[Try Challenge](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC)
+[Live Preview Website](https://react-notification-app.netlify.app/)
+[Link to Challenge Website](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC)
 
 ## Preview 
 ###### Desktop Preview
