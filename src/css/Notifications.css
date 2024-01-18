@@ -1,0 +1,104 @@
+.notifications{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.each-n{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+}
+.each-n.unseen{
+    background: #F6FAFD;
+}
+.each-n img{
+    width: 45px;
+    height: 45px;
+}
+.each-n .left{
+    display: flex;
+}
+.each-n .left .n-avatar-cont{
+    padding: 0 1rem;
+}
+.each-n .left .n-avatar-cont img{
+    border-radius: 100%;
+}
+.each-n .n-text-cont{
+    color: #64676E;
+}
+.each-n .n-text{
+    display: block;
+    color: #64676E;
+    margin-bottom: 0.3rem;
+}
+.each-n .n-text span,.each-n .n-text a{
+    margin-right: 6px;
+}
+.each-n .n-text .profile-name{
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.each-n .n-text .profile-name:hover{
+    color: #1D3C7A;
+}
+.each-n .n-text .post-target{
+    font-weight: 700;
+    color: #666B70;
+    transition: 0.1s ease-in;
+}
+.each-n .n-text .post-target:hover{
+    color: #1D3C7A;
+}
+.each-n p.message{
+    font-weight: 500;
+    padding: 0.8rem;
+    line-height: 1.5;
+    color: #6B7582;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.each-n p.message:hover{
+    background: #E5EFF9;
+}
+.each-n .n-text .n-dot{
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    margin-top: 7px;
+    border-radius: 100%;
+    background: #FF4849;
+}
+.each-n .n-text-cont .time{
+    font-size: 0.8rem;
+}
+.each-n .right .n-post-img-cont img{
+    border-radius: 10px;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.each-n .right .n-post-img-cont img:hover{
+    box-shadow: 0 0 5px #9bd2fb;
+}
+
+@media only screen and (max-width: 600px) {
+    .notifications{
+        font-size: 0.9rem;
+    }
+    .each-n{
+        padding: 0.5rem;
+    }
+    .each-n .left .n-avatar-cont {
+        padding: 0 1rem 0 0.5rem;
+    }
+  }

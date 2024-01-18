@@ -1,0 +1,84 @@
+{
+    "notification":[
+        {
+            "avatar":"avatar-mark-webber.webp",
+            "profile_name":"Mark Webber",
+            "time":"1m",
+            "post_message":"reacted to your recent post",
+            "target_type":"text",
+            "target":{
+                "text":"My first tournament today!",
+                "href":"#"
+            },
+            "seen":false
+        },
+        {
+            "avatar":"avatar-angela-gray.webp",
+            "profile_name":"Angela Gray",
+            "time":"5m",
+            "post_message":"followed you",
+            "target_type":"none",
+            "seen":false
+        },
+        {
+            "avatar":"avatar-jacob-thompson.webp",
+            "profile_name":"Jacob Thompson",
+            "time":"1 day",
+            "post_message":"has joined your group",
+            "target_type":"text",
+            "target":{
+                "text":"Chess Club",
+                "href":"#"
+            },
+            "seen":false
+        },
+        {
+            "avatar":"avatar-rizky-hasanuddin.webp",
+            "profile_name":"Rizky Hasanuddin",
+            "time":"5 day",
+            "post_message":"sent you a private message",
+            "target_type":"message",
+            "target":{
+                "text":"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+                "href":"#"
+            },
+            "seen":true
+        },
+        {
+            "avatar":"avatar-kimberly-smith.webp",
+            "profile_name":"Kimberly Smith",
+            "time":"1 week",
+            "post_message":"commented on your picture",
+            "target_type":"image",
+            "target":{
+                "src":"image-chess.webp",
+                "href":"#"
+            },
+            "seen":true
+        },
+        {
+            "avatar":"avatar-nathan-peterson.webp",
+            "profile_name":"Nathan Peterson",
+            "time":"2 week",
+            "post_message":"reacted to your recent post",
+            "target_type":"text",
+            "target":{
+                "text":"5 end-game strategies to increase your win rate",
+                "href":"#"
+            },
+            "seen":true
+        },
+        {
+            "avatar":"avatar-anna-kim.webp",
+            "profile_name":"Anna Kim",
+            "time":"2 week",
+            "post_message":"left the group",
+            "target_type":"text",
+            "target":{
+                "text":"Chess Club",
+                "href":"#"
+            },
+            "seen":true
+        }
+    ]
+}
